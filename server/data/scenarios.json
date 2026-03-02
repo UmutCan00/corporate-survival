@@ -1,0 +1,482 @@
+[
+  {
+    "id": 1,
+    "title": "The Velo Incident",
+    "setup": "Context: This is a 6-person team at a large AI company (1100+ employees). The team has 3 developers (Özgür the team lead, Umut, Fatih the backend dev, plus Oğuzhan the part-time newcomer) and 3 support members (Selin, Karahan, Gamze) who review AI chatbot conversations. Their director is Sefa, VP is Berkay, CEO is Aytekin.\n\nUmut brought a fresh pack of Velo nicotine pouches to the office and has been evangelizing them all morning like a door-to-door salesman. Karahan already took two and is vibing – he's the only other person who genuinely liked them. Umut has now cornered Oğuzhan at his desk saying 'Just try ONE, bro.' Özgür walks by, turns pale remembering his disastrous first Velo experience (he felt terrible for hours), and loudly announces 'DO NOT listen to this man.' Fatih is watching from his desk, judging silently. Selin says 'If that thing kills you, I'm not writing the incident report.'",
+    "constraints": [
+      "The office technically has a no-substances policy that could cover nicotine pouches.",
+      "Karahan is clearly buzzing and giggling at his desk which is not a good look during work hours.",
+      "Özgür felt genuinely sick last time and his dramatic retelling of the experience has become an office legend."
+    ],
+    "hiddenTwistHints": [
+      "Gamze, who once tried various substances in her past, is morbidly curious but won't admit it.",
+      "Oğuzhan already tried one in the bathroom and is hiding the fact that he's been dizzy for 20 minutes."
+    ],
+    "difficulty": 3,
+    "tags": ["velo", "office-life", "substance", "team-chaos"]
+  },
+  {
+    "id": 2,
+    "title": "Oğuzhan's Caching Catastrophe 2.0",
+    "setup": "Context: This is a 6-person team at a large AI company. Devs: Özgür (lead), Umut (frontend), Fatih (backend), Oğuzhan (part-time, 2 days/week). Support: Selin, Karahan, Gamze.\n\nOğuzhan pushed code on his second day this week and left for the day. Twenty minutes later, the support team notices the AI chat dashboard is showing conversations from YESTERDAY as if they're happening right now. Customers are confused. Selin is screaming (in her unique way that Fatih describes as 'a girl with a megaphone') in the team chat. Gamze says the data looks 'haunted.' Umut checks the code and realizes Oğuzhan cached the entire conversation feed with a 24-hour TTL. Again. This is eerily similar to the caching bug Umut already fixed last month. Özgür pings the team: 'We need this fixed before the 4 PM demo.'",
+    "constraints": [
+      "Oğuzhan is unreachable – his phone is off and it's his day off.",
+      "The demo is in 35 minutes.",
+      "Fatih's backend API is returning fresh data – this is purely a frontend caching issue."
+    ],
+    "hiddenTwistHints": [
+      "Oğuzhan's exam scores and GPA are higher than Umut's, which makes this situation extra ironic.",
+      "The demo was already previewed yesterday and everyone said it 'looked great' – with yesterday's cached data, unknowingly."
+    ],
+    "difficulty": 4,
+    "tags": ["caching", "oğuzhan", "frontend", "demo-pressure"]
+  },
+  {
+    "id": 3,
+    "title": "The Çiğ Köfte Diplomacy Crisis",
+    "setup": "Context: This is a 6-person team at a large AI company. Devs: Özgür (lead), Umut, Fatih (backend). Support: Selin, Karahan, Gamze. Team lunches are their own thing – upper management doesn't join.\n\nIt's 3 PM. Gamze has initiated the daily çiğ köfte order – as she does almost every day – and the team channel is buzzing with orders. But today there's a catch: a company-wide email just went out announcing a mandatory all-hands team bonding dinner at 6 PM at a fancy restaurant, organized by upper management. The çiğ köfte is already ordered and will arrive in 10 minutes. Gamze refuses to cancel ('I already paid!'). Özgür points out that eating a massive çiğ köfte spread at 3 PM and then pretending to be hungry at a 6 PM dinner is going to be obvious. Fatih was fasting but already broke his fast specifically for this çiğ köfte order – he will not take a cancellation well.",
+    "constraints": [
+      "The company dinner is mandatory and management will notice empty seats.",
+      "The çiğ köfte delivery guy is already in the elevator.",
+      "Fatih broke his fast early specifically for this – if the çiğ köfte gets cancelled, his sacrifice was for nothing."
+    ],
+    "hiddenTwistHints": [
+      "The restaurant for the company dinner turns out to be a place that also serves çiğ köfte, which will make Gamze furious.",
+      "Karahan has already eaten lunch AND is planning to eat both the çiğ köfte and the dinner because his apartment has no food."
+    ],
+    "difficulty": 2,
+    "tags": ["çiğ-köfte", "gamze", "food-politics", "team-dinner"]
+  },
+  {
+    "id": 4,
+    "title": "Fatih's Theological Debugging Session",
+    "setup": "Context: This is a 6-person team at a large AI company. Devs: Özgür (lead), Umut (frontend), Fatih (backend). Support: Selin, Karahan, Gamze.\n\nIt's Ramadan. Fatih has been fasting devoutly for 3 days straight. The backend has a critical bug that's been escalated from upper management. The entire team is summoned to a war room. Özgür orders pizza for the war room because 'we'll be here a while.' The pizza arrives. Fatih stares at it. Fatih stares at the bug. Fatih stares at the pizza again. Selin says 'Fatih, this is technically a team lunch.' Fatih's resolve is visibly cracking. The bug requires his backend expertise to fix. Karahan has started a secret bet in the DMs on whether Fatih will eat.",
+    "constraints": [
+      "The bug is blocking enterprise customers from seeing their AI chat analytics.",
+      "The team needs to ship a fix within 2 hours.",
+      "Fatih fasts during Ramadan but has been known to break fast for team lunches – his theological consistency is... flexible."
+    ],
+    "hiddenTwistHints": [
+      "The bug is actually in Umut's frontend code that's sending malformed requests to Fatih's API – but nobody has checked the frontend yet.",
+      "Gamze ordered çiğ köfte to the war room as 'backup food' and it arrives right as Fatih is at his weakest."
+    ],
+    "difficulty": 3,
+    "tags": ["ramadan", "fatih", "backend-bug", "moral-dilemma"]
+  },
+  {
+    "id": 5,
+    "title": "The GPA Arms Race",
+    "setup": "Context: This is a 6-person team at a large AI company. Devs: Özgür (lead), Umut (frontend, known for great exam scores and CS background), Fatih (backend, self-taught via freelancing), Oğuzhan (part-time newcomer). Support: Selin, Karahan, Gamze.\n\nDuring a casual team standup, Oğuzhan innocently mentions his university entrance exam score. The room goes quiet. It's higher than Umut's. Özgür, trying to be funny, says 'Wow, we might have a new genius in the building.' Karahan is desperately trying to make eye contact with Umut to check if he's okay. Selin smirks. Umut's entire reputation as the team's academic prodigy is under threat. Oğuzhan then mentions his GPA. It's also higher. Fatih, who went to a university people joke about on Twitter but keeps the entire backend alive through sheer talent, whispers 'welcome to the club of people who don't care about scores, Umut.'",
+    "constraints": [
+      "Umut cannot visibly react because everyone assumes he's above caring about this.",
+      "Oğuzhan genuinely doesn't realize this is a sensitive topic and keeps elaborating.",
+      "Fatih is clearly enjoying this moment more than he should be."
+    ],
+    "hiddenTwistHints": [
+      "Karahan is already drafting a meme for Umut's DM about this exact moment.",
+      "Oğuzhan's high scores haven't stopped him from caching data that should be real-time – twice."
+    ],
+    "difficulty": 2,
+    "tags": ["ego", "academics", "oğuzhan", "identity-crisis"]
+  },
+  {
+    "id": 6,
+    "title": "Aytekin's Micro-Audit",
+    "setup": "Context: This is a 6-person team at a large AI company (1100+ employees). CEO Aytekin built the company 20 years ago. He manages everything like it's still a 10-person startup. VP Berkay, Director Sefa sit above team lead Özgür. They oversee about 8 teams – but Aytekin treats every team like his personal project.\n\nWord has come down: Aytekin has decided to personally review every team's Jira board this week. The team's board is... creative. Tickets include 'Fix the thing Fatih broke,' 'Gamze's dashboard request (the one she asked about 47 times),' and a ticket Karahan made titled 'Investigate why the office Wi-Fi is better than my apartment internet.' Özgür gets the calendar invite: 'CEO Jira Review – 30 minutes.' He has 4 hours to make the board look professional.",
+    "constraints": [
+      "Aytekin is known to read EVERY ticket description and EVERY comment when he reviews.",
+      "There are 47 tickets in 'In Progress' and 3 in 'Done' this sprint.",
+      "Selin left a comment on one ticket three months ago that just says 'lol this is never getting fixed.'"
+    ],
+    "hiddenTwistHints": [
+      "Aytekin's review was apparently triggered by someone at the management level flagging the team's board as 'an example that needs more oversight.'",
+      "The çiğ köfte order discussions in ticket comments are longer than the actual technical discussions."
+    ],
+    "difficulty": 4,
+    "tags": ["aytekin", "micromanagement", "jira", "panic"]
+  },
+  {
+    "id": 7,
+    "title": "Karahan's Landlord Strikes Again",
+    "setup": "Context: This is a 6-person team at a large AI company. Support: Selin, Karahan, Gamze. Devs: Özgür (lead), Umut, Fatih. Karahan's apartment is legendary for being overpriced, having unreliable internet, and the water cutting out randomly.\n\nIt's 10 AM standup. Karahan joins the video call from what appears to be complete darkness. His camera flickers. His audio cuts in and out. He's saying something about his landlord turning off the water AND the internet simultaneously. He's now hotspotting from his phone but his mobile data is almost gone. He has a critical task due today. Özgür says 'just come to the office.' Karahan says his water is off so he couldn't shower. Selin says 'we don't care, just come.' Gamze has turned off her camera in solidarity because she 'also hates light.' Umut is laughing in the chat. Fatih says 'This is why I got married – stable housing.'",
+    "constraints": [
+      "Karahan's apartment is 45 minutes from the office on a good day.",
+      "His phone data plan has 200MB left for the month.",
+      "Karahan is Umut's closest friend at work and Umut feels personally responsible for helping."
+    ],
+    "hiddenTwistHints": [
+      "Karahan's landlord is raising rent next month and this is a 'preview' of what happens if he complains.",
+      "Karahan has been apartment hunting during work hours on Umut's second monitor – this is karma."
+    ],
+    "difficulty": 3,
+    "tags": ["karahan", "landlord", "remote-work", "housing-crisis"]
+  },
+  {
+    "id": 8,
+    "title": "The Japan Stories Gone Too Far",
+    "setup": "Context: This is a 6-person team at a large AI company. Devs: Özgür (lead), Umut, Fatih. Support: Selin, Karahan, Gamze. Umut recently went to Japan and came back... changed. He's been obsessed with Japanese culture, particularly Japanese women, ever since.\n\nThe team is at their usual team dinner (no management, just the 6 of them). After two beers, Umut starts telling Japan stories again. Karahan is hyping him up as always. Umut is showing photos on his phone – starting innocent enough with temple shots, but progressively scrolling into photos from Tokyo clubs, a burlesque show, and some very questionable group photos. Selin raises an eyebrow. Gamze is recording a voice note to her husband about 'what Umut is showing us now.' Özgür kicks Umut under the table but he doesn't notice – he's now explaining in detail why Japanese women are 'on another level.' Fatih says 'Bro, I show more restraint during Ramadan than you do with this Japan thing.'",
+    "constraints": [
+      "Umut's phone gallery is currently open to a burlesque club album and he's swiping carelessly.",
+      "Karahan is zero help – he's laughing too hard to form words and keeps saying 'show them the other one.'",
+      "Gamze's voice note accidentally went to the team group chat instead of her husband."
+    ],
+    "hiddenTwistHints": [
+      "Selin screenshots one of the tamer club photos and is saving it for future blackmail material.",
+      "Fatih later tells everyone that Umut described Japanese women so passionately that 'it was like a TED talk nobody asked for.'"
+    ],
+    "difficulty": 4,
+    "tags": ["japan", "dinner", "oversharing", "photos", "social-disaster"]
+  },
+  {
+    "id": 9,
+    "title": "Berkay's Shadow Governance",
+    "setup": "Context: This is a 6-person team at a large AI company. VP Berkay oversees about 8 teams. Director Sefa sits between Berkay and team lead Özgür. Berkay is known for acting more like the CEO than the actual CEO, and he doesn't always defend team members upward.\n\nA message arrives from management: there's a push to rebuild the AI chat dashboard using a different framework that another team adopted. The decision seems to have been made without consulting Özgür or the dev team. It would undo 4 months of Umut and Fatih's work. Özgür is furious. Umut checks the framework – it has 200 stars on GitHub and was last updated 8 months ago. Fatih says 'My backend will outlive whatever framework they pick.' The team suspects this came from Berkay's direction but nobody has confirmation.",
+    "constraints": [
+      "Challenging the decision means going against someone well above Özgür's pay grade.",
+      "The framework is objectively questionable but the decision carries management weight.",
+      "Sefa hasn't said anything about it, which could mean he supports it, opposes it, or wasn't told either."
+    ],
+    "hiddenTwistHints": [
+      "The framework push is actually coming from another team's lead who convinced someone at the VP level.",
+      "Sefa privately thinks it's a terrible idea but hasn't figured out how to push back without creating conflict."
+    ],
+    "difficulty": 5,
+    "tags": ["politics", "framework", "loyalty", "management"]
+  },
+  {
+    "id": 10,
+    "title": "Selin's One-Armed Lego Showdown",
+    "setup": "Context: This is a 6-person team at a large AI company. Selin is a support team member who reviews AI chats. She's missing her right arm, which makes her Lego hobby even more impressive. She's tough, direct, and doesn't want pity.\n\nSelin brought her latest Lego build to the office – a massive Star Wars set she assembled one-handed, which is genuinely impressive. It's displayed proudly on her desk. Oğuzhan, the part-time dev who doesn't know all the team dynamics yet, casually picks it up to admire it and a piece falls off. Then another. Then the main turret detaches entirely. Selin goes quiet. That dangerous quiet that Fatih, her closest friend on the team, knows all too well – he slowly backs his chair away. The entire team has stopped working to watch what happens next.",
+    "constraints": [
+      "Oğuzhan genuinely doesn't realize the severity of what he's done.",
+      "Selin has been building this for 3 weeks.",
+      "The team needs Oğuzhan alive because he has code to push tomorrow."
+    ],
+    "hiddenTwistHints": [
+      "Selin has a spare set of the broken pieces in her drawer because Fatih broke the same set last month.",
+      "Karahan filmed the whole thing and has already sent it to Umut's DMs."
+    ],
+    "difficulty": 2,
+    "tags": ["selin", "lego", "oğuzhan", "office-tension"]
+  },
+  {
+    "id": 11,
+    "title": "The 1.5-Month Situationship Post-Mortem",
+    "setup": "Context: This is a 6-person team at a large AI company. Umut and Karahan are best friends at work – same hobbies, same thinking patterns. Karahan was Umut's emotional support during his recent breakup.\n\nUmut's ex-situationship (1.5 months – Karahan has reminded him of the exact duration multiple times) just posted an Instagram story at a restaurant Umut introduced her to. With someone else. Karahan noticed before Umut did and is now sitting next to him performing emergency emotional support at his desk. Umut's productivity has dropped to zero. Özgür needs a dashboard hotfix by 5 PM. Selin walks by, notices the vibe, and says 'Who died?' Fatih, without looking up from his screen, says 'His 6-week relationship.' Gamze offers Umut çiğ köfte. It's 10 AM.",
+    "constraints": [
+      "The hotfix is blocking a release that was promised to management this week.",
+      "Karahan keeps refreshing the Instagram story to 'gather intelligence' instead of doing his own work.",
+      "Umut can't tell Özgür the real reason for the delay."
+    ],
+    "hiddenTwistHints": [
+      "The guy in the story is actually her cousin – Karahan will figure this out 4 hours too late.",
+      "Karahan, who likes girls but fears commitment himself, is giving relationship advice with zero self-awareness."
+    ],
+    "difficulty": 3,
+    "tags": ["heartbreak", "productivity", "karahan", "situationship"]
+  },
+  {
+    "id": 12,
+    "title": "Gamze's Cat Emergency",
+    "setup": "Context: This is a 6-person team at a large AI company. Support: Selin, Karahan, Gamze. Gamze is obsessed with cats and her husband is currently overseas.\n\nGamze gets a call mid-sprint review. Her cat somehow opened the apartment door and is now in the hallway of her building. Her husband is overseas and can't help. She announces she's leaving immediately. The problem: Gamze is the ONLY person who knows how to navigate the AI chat moderation queue efficiently, and there are 300+ unreviewed chats flagged as urgent. The weekly metrics report needs those numbers by 4 PM. Selin volunteers to cover but has never used the moderation tool's advanced filters. Karahan tries to help but accidentally approves 50 flagged chats without reading them.",
+    "constraints": [
+      "Three of the accidentally approved chats contain content that definitely should have been flagged.",
+      "Gamze's phone dies after she says 'the cat went to the 3rd floor.'",
+      "The weekly metrics go up the chain and any anomalies get questions."
+    ],
+    "hiddenTwistHints": [
+      "The cat has done this before and always comes back on its own within an hour – Gamze knows this but panics every time.",
+      "Karahan's mass-approval accidentally improved the moderation metrics and the numbers look better than last week."
+    ],
+    "difficulty": 3,
+    "tags": ["gamze", "cats", "moderation", "chaos"]
+  },
+  {
+    "id": 13,
+    "title": "The Özgür Sarcasm Escalation",
+    "setup": "Context: This is a 6-person team at a large AI company. Özgür is the team lead – friendly but deeply sarcastic. The team has a private Slack channel for banter.\n\nA company-wide email goes out praising 'innovative leadership at the VP level' with some self-congratulatory tone. Özgür, in the team's private Slack channel, writes a masterpiece of sarcastic commentary. It's genuinely hilarious. Everyone is dying laughing. Karahan screenshots it. Umut quote-replies with an even better roast. Fatih adds a chef's kiss emoji. Then Selin notices something: Özgür posted in #product-team, not the private channel. #product-team has 45 people in it. Including people from other teams. Including people who report to the people being roasted.",
+    "constraints": [
+      "45 people have already seen the messages – you can't unring this bell.",
+      "Deleting messages in Slack still shows 'This message was deleted' which looks even worse.",
+      "Özgür's sarcasm is legendary within the team but was never supposed to leak out."
+    ],
+    "hiddenTwistHints": [
+      "Most people in #product-team privately agree with Özgür's commentary but nobody will say so.",
+      "The person who sent the original company email doesn't actually read Slack – their assistant summarizes it weekly."
+    ],
+    "difficulty": 4,
+    "tags": ["slack", "özgür", "sarcasm-gone-wrong", "wrong-channel"]
+  },
+  {
+    "id": 14,
+    "title": "The Mushroom Microdose Monday",
+    "setup": "Context: This is a 6-person team at a large AI company. Gamze has experimented with substances (weed, mushrooms) in her past. Karahan's apartment is the team's unofficial hangout spot (despite its many problems).\n\nIt's Monday morning. Umut, Karahan, and Gamze are at their desks. Something is... off. Gamze is staring at her screen with unusual intensity and just said 'the dashboard colors are breathing.' Karahan is writing the most eloquent, philosophical Jira ticket anyone has ever seen – about a button alignment issue. Umut feels completely normal but is suddenly extremely aware of the office fluorescent lights. The weekend trip to Karahan's apartment was fun. Too fun. Özgür walks in, looks at the three of them, and says 'Why do you all look like you've seen God?' Fatih is watching them with the judgment of a man who is fasting and sober. Selin is taking notes – literally.",
+    "constraints": [
+      "The office security cameras definitely captured Karahan's 20-minute conversation with the coffee machine.",
+      "A surprise floor visit from management could happen today – it's been scheduled but the team forgot.",
+      "Fatih, the only fully sober and alert team member, is not going to cover for anyone."
+    ],
+    "hiddenTwistHints": [
+      "Karahan's eloquent Jira ticket actually contains the best UX suggestion the team has ever produced.",
+      "Selin's 'notes' are actually for a book she's writing and this is perfect material."
+    ],
+    "difficulty": 5,
+    "tags": ["monday", "altered-state", "karahan", "gamze", "office-survival"]
+  },
+  {
+    "id": 15,
+    "title": "The Double Salary Disappointment",
+    "setup": "Context: This is a 6-person team at a large AI company that's celebrating its 20th anniversary. CEO Aytekin built the company from scratch. The entire company (1100+ people) has been buzzing with rumors of a double salary bonus for the 20th year.\n\nThe 20th anniversary celebration email goes out. There's a company party. There's a commemorative mug. There's a heartfelt video from Aytekin about 'the journey.' There is NO double salary. The entire office goes quiet. The team's Slack channel explodes. Gamze says 'I already told my husband we're getting double salary.' Karahan says 'I was going to use that to move apartments.' Fatih says 'I broke my fast early to celebrate. For a MUG.' Selin is composing a very carefully worded message that she will never send. Umut and Özgür are doing the math on what they were expecting vs. a commemorative mug. The mood is funeral-level.",
+    "constraints": [
+      "Nobody can publicly complain because the anniversary video was genuinely emotional.",
+      "The commemorative mug is actually quite nice, which makes the disappointment more confusing.",
+      "Karahan already told his landlord he'd pay double rent next month as goodwill – based on the expected bonus."
+    ],
+    "hiddenTwistHints": [
+      "HR is conducting 'anonymous' satisfaction surveys this week – the timing is suspicious.",
+      "A team on another floor allegedly IS getting bonuses for a specific project milestone, and this rumor will reach the team by 3 PM."
+    ],
+    "difficulty": 3,
+    "tags": ["double-salary", "anniversary", "disappointment", "office-morale"]
+  },
+  {
+    "id": 16,
+    "title": "Fatih's Girl Theory Goes Public",
+    "setup": "Context: This is a 6-person team at a large AI company. Team lunch is just the team – no management. Fatih is the backend dev, married, known for his claim that he'd 'get lots of girls' if he were single.\n\nTeam lunch at a nice restaurant. Just the six of them. Fatih, emboldened by the free food (and the convenient excuse to skip fasting today), starts his famous monologue: 'If I wasn't married, I'd be getting SO many girls.' He's on minute 7 of this speech. Selin, deadpan, says 'Fatih, I've seen more game from the office printer.' The table erupts. Fatih tries to recover. Then Gamze says 'My husband says the same thing from overseas.' Umut and Karahan are making eye contact across the table because they BOTH know Fatih's actual track record. Özgür says 'Fatih, the confidence is inspiring. Delusional, but inspiring.'",
+    "constraints": [
+      "Fatih is now doubling down and asking the table to rate him 1-10.",
+      "The restaurant is quiet enough that the neighboring table can hear everything.",
+      "Selin has pulled up Fatih's LinkedIn photo as counter-evidence."
+    ],
+    "hiddenTwistHints": [
+      "Fatih's wife follows Selin on Instagram and Selin is live-storying highlights from this lunch.",
+      "Karahan, who likes girls but fears commitment, is silently wondering if Fatih has a point."
+    ],
+    "difficulty": 2,
+    "tags": ["fatih", "lunch", "delusion", "comedy"]
+  },
+  {
+    "id": 17,
+    "title": "The 1100-Person All-Hands Fiasco",
+    "setup": "Context: This is a 6-person team at a large AI company (1100+ employees). CEO Aytekin occasionally does company-wide all-hands where he asks teams to showcase their work live.\n\nIt's the quarterly all-hands. Aytekin wants to see each team's dashboards live. The team is up. Özgür is presenting. The dashboard loads beautifully. Then the question comes: 'Can we see the real-time data?' Özgür clicks. The data doesn't update. It's cached. It's Oğuzhan's caching code from last week that Umut thought he'd already fixed. The entire company – all 1100 people – is watching a dashboard that proudly displays data from Tuesday. It's Friday. Fatih's backend is returning fresh data – the network tab proves the frontend is ignoring it. Umut is dying inside. Selin types in the team chat: 'Is this the caching thing again?' Karahan reacts with a skull emoji.",
+    "constraints": [
+      "Özgür's rule is 'we own team mistakes as a team' – nobody gets thrown under the bus publicly.",
+      "The all-hands is being recorded for the company wiki.",
+      "Oğuzhan is watching from home and is frantically pushing a 'fix' that will make it worse."
+    ],
+    "hiddenTwistHints": [
+      "The Tuesday data actually contains a number that's wrong, and someone in management noticed – this is about to become a bigger investigation.",
+      "Fatih has been saying 'this wouldn't happen if the frontend was as solid as my backend' for weeks, and this proves his point spectacularly."
+    ],
+    "difficulty": 5,
+    "tags": ["all-hands", "caching", "team-reputation", "live-demo"]
+  },
+  {
+    "id": 18,
+    "title": "The Dark Mode Standoff",
+    "setup": "Context: This is a 6-person team at a large AI company. Gamze hates light – she keeps her desk area as dark as possible. The devs build internal dashboards that the support team uses daily.\n\nGamze has filed her 14th request to make the internal dashboard dark mode by default. Her reasoning: 'Light mode is violence against my eyes.' Selin supports this because she reads everything in dark mode. Fatih says dark mode breaks some of his backend admin panels' CSS. Umut, who built the theme system, knows it would take about 2 hours to implement. Özgür says 'put it in the backlog.' Gamze escalates to Özgür directly: 'I use this dashboard 8 hours a day. My eyes are burning. This is a health issue.' She has started wearing sunglasses at her desk in protest. Karahan wears his in solidarity.",
+    "constraints": [
+      "The backlog already has 47 items ahead of this request.",
+      "Gamze's sunglasses protest is making her miss things on the dashboard, creating more support tickets.",
+      "Fatih already built a dark mode toggle in his local branch 3 months ago but forgot to make a pull request."
+    ],
+    "hiddenTwistHints": [
+      "If someone just asked upper management directly, they'd probably approve it instantly since even they prefer dark mode.",
+      "The 2-hour implementation estimate is if Umut does it – if Oğuzhan does it, it'll take 2 weeks and cache something."
+    ],
+    "difficulty": 2,
+    "tags": ["gamze", "dark-mode", "backlog", "sunglasses-protest"]
+  },
+  {
+    "id": 19,
+    "title": "The Hiring Freeze",
+    "setup": "Context: This is a 6-person team at a large AI company. Director Sefa oversees about 8 teams. Sefa is a man of his word. The team is understaffed – 3 devs and 3 support handling a workload meant for more.\n\nSefa promised the team two new hires by Q2. He shook hands on it. Then word comes down: all hiring is frozen company-wide 'until further alignment with strategic priorities.' Özgür is furious because the team is drowning. Umut and Fatih are doing the work of 4 developers. Karahan, Selin, and Gamze are reviewing AI chats until 8 PM daily. The team knows Sefa meant his promise, but the freeze came from above him. Morale is tanking. On top of this, the double salary that everyone expected for the company's 20th anniversary never came. The combination of no new hires AND no bonus is creating a dangerous mood.",
+    "constraints": [
+      "The team's metrics actually show they're delivering on time – because everyone is burning out silently.",
+      "Complaining too loudly risks being seen as 'not a team player' by people several levels up.",
+      "Özgür refuses to 'make things look worse than they are' just to get headcount approved."
+    ],
+    "hiddenTwistHints": [
+      "The hiring freeze doesn't apply to 'critical roles' – the team just hasn't been classified as critical yet.",
+      "Three people on the team have been quietly browsing LinkedIn after the double salary disappointment."
+    ],
+    "difficulty": 4,
+    "tags": ["hiring", "burnout", "double-salary", "morale"]
+  },
+  {
+    "id": 20,
+    "title": "The Commitment-Phobic Career Chat",
+    "setup": "Context: This is a 6-person team at a large AI company. Umut is a CS grad with great scores. Karahan is Umut's best friend at work – they share the same hobbies and thinking patterns, including a mutual fear of long-term commitment.\n\nHR schedules mandatory 1-on-1 career development meetings for everyone. The HR person asks Umut: 'Where do you see yourself in 5 years?' Umut and Karahan discussed this exact scenario last night over beers and agreed that 5-year plans are 'a scam.' But Umut can't say that. His brain cycles through options: tech lead? startup? Move to Japan permanently? The HR person is waiting. They have a form with checkboxes: 'Leadership Track,' 'Individual Contributor,' 'Open to Relocation.' Umut thinks about Japan. He thinks about commitment. He thinks about his situationship. He starts sweating.",
+    "constraints": [
+      "Whatever Umut checks on the form goes to his management chain.",
+      "Karahan's meeting is right after Umut's and he will definitely ask what Umut said.",
+      "Checking 'Open to Relocation' will trigger a whole new HR process that Umut doesn't want."
+    ],
+    "hiddenTwistHints": [
+      "The HR person doesn't actually care about the answers – they need to fill out forms for compliance.",
+      "Karahan, who fears commitment in every aspect of life, will panic even harder at his own meeting 30 minutes later."
+    ],
+    "difficulty": 3,
+    "tags": ["career", "commitment", "hr", "existential"]
+  },
+  {
+    "id": 21,
+    "title": "The Selin-Fatih Pizza War",
+    "setup": "Context: This is a 6-person team at a large AI company. Fatih and Selin are good friends despite (or because of) their constant arguments. Selin is tough and direct. Fatih is stubborn and loud.\n\nFatih and Selin have been in a heated private Slack debate about whether pineapple belongs on pizza. It's been going on for 3 days. 400+ messages. They've both started recruiting allies. Fatih has Karahan and Oğuzhan. Selin has Gamze and Umut (she threatened to give more detailed feedback on Umut's work). Özgür refuses to take sides. The debate has escalated to a formal proposal: the team orders pizza for Friday, and the majority vote decides the topping forever. Fatih says 'if pineapple wins, I'm transferring teams.' Selin says 'good riddance.'",
+    "constraints": [
+      "The pizza budget comes from the team's quarterly 'morale fund.'",
+      "Fatih is fasting on Friday. He won't even eat the pizza he's fighting about.",
+      "Selin ordered a pineapple pizza to Fatih's desk as a power move. He hasn't discovered it yet."
+    ],
+    "hiddenTwistHints": [
+      "Özgür secretly loves pineapple pizza but will never admit it because he needs to appear neutral as team lead.",
+      "Gamze used the çiğ köfte order as leverage to get Selin's vote on something unrelated – alliance politics run deep."
+    ],
+    "difficulty": 1,
+    "tags": ["selin", "fatih", "pizza", "office-war"]
+  },
+  {
+    "id": 22,
+    "title": "The Secret Apartment Hunt",
+    "setup": "Context: This is a 6-person team at a large AI company. Karahan's apartment is infamous – overcharging landlord, bad internet, unreliable water. Umut is his best friend and co-conspirator.\n\nKarahan finally decides to move out of his terrible apartment. Umut is helping him search during work hours on his second monitor. Özgür catches them both scrolling through real estate listings and says 'Are you apartment hunting or are you working?' Umut minimizes a tab. But he minimized the wrong tab – he minimized the actual work, leaving the listing for a 'Cozy bachelor pad, Beşiktaş, sea view, 25k TL' visible on the projector. The projector that's connected for the sprint demo. The demo that starts in 30 seconds.",
+    "constraints": [
+      "The listing description includes 'perfect for young professionals who like nightlife' which is now on a 65-inch screen.",
+      "Özgür is not amused – this is his demo to showcase the sprint's work.",
+      "Karahan's current landlord is overcharging him and Karahan's been complaining about it in Jira comments."
+    ],
+    "hiddenTwistHints": [
+      "Selin takes a photo of the projector screen and sends it to the team chat with 'sprint goal: find Karahan a house.'",
+      "The 25k listing is actually a scam – Fatih recognizes the photos from a different listing he saw months ago."
+    ],
+    "difficulty": 3,
+    "tags": ["karahan", "apartment", "demo", "busted"]
+  },
+  {
+    "id": 23,
+    "title": "The Productivity Tracking Tool",
+    "setup": "Context: This is a 6-person team at a large AI company (1100+ employees). CEO Aytekin built the company 20 years ago and still treats it like his personal project.\n\nA company-wide email announces a new 'Productivity Insights' tool that tracks screen time, app usage, and idle time for all employees. The team's reaction is immediate. Özgür calls it 'Big Brother.' The first weekly report leaks internally. The team's data shows: Umut – 2 hours on Stack Overflow (fine), 45 minutes on Reddit (less fine), 23 minutes on an anime streaming site (problematic). Karahan – 1 hour on real estate sites. Gamze – 3 hours on a cat adoption platform. Fatih – suspiciously perfect metrics because he routes personal browsing through his phone hotspot. Selin – 4 hours on a Lego shop, which she insists is 'research for stress management.'",
+    "constraints": [
+      "The anime site visits were during lunch break but the tool doesn't differentiate.",
+      "Management reviews the top-level dashboards periodically.",
+      "Fatih's perfect metrics make him look like the most productive person on the team, which everyone knows is gaming the system."
+    ],
+    "hiddenTwistHints": [
+      "The CEO's own screen time data accidentally got included in a test run – he spent 4 hours on YouTube.",
+      "The tool was pushed by someone at the VP level because another division showed better 'productivity metrics.'"
+    ],
+    "difficulty": 4,
+    "tags": ["surveillance", "privacy", "anime", "screen-time"]
+  },
+  {
+    "id": 24,
+    "title": "The Part-Timer's Dilemma",
+    "setup": "Context: This is a 6-person team at a large AI company. Oğuzhan is a part-time dev, Fatih's former intern, who comes in 2 days a week. He has higher exam scores and GPA than Umut but is less careful with code.\n\nOğuzhan asks Umut for career advice over coffee. 'How did you go from intern to full-time so fast? What's the secret?' Umut wants to help him genuinely – he remembers being in similar shoes. But there's an unspoken dynamic: the team has noticed that Umut's code quality and attention to detail is on another level compared to Oğuzhan's. Do you tell Oğuzhan what it really takes? Do you mentor him to close the gap? Karahan is listening nearby and sends Umut a DM: 'Don't create your own competition bro.'",
+    "constraints": [
+      "Oğuzhan is talented – with the right guidance he could absolutely grow significantly.",
+      "Özgür asked Umut to 'help onboard him' which technically means mentoring.",
+      "If Oğuzhan improves dramatically, it slightly changes the team dynamic. If he doesn't, Umut looks like a bad mentor."
+    ],
+    "hiddenTwistHints": [
+      "Oğuzhan has already gotten a competing offer from another company for a full-time role.",
+      "Özgür sees how Umut handles this mentorship as a signal about his leadership potential."
+    ],
+    "difficulty": 3,
+    "tags": ["mentorship", "oğuzhan", "career", "team-dynamics"]
+  },
+  {
+    "id": 25,
+    "title": "The Friday Night Confession",
+    "setup": "Context: This is a 6-person team at a large AI company. Friday after-work drinks are a team tradition – no management, just the crew.\n\nFriday after-work drinks at their usual bar. Karahan is on his 4th beer. Umut is on his 3rd. Selin is drinking cola but somehow matching everyone's energy. Fatih is there but 'just having water' because it's technically still a fasting day. Gamze left early for her cats. Özgür is being his sarcastic best. After the 5th beer, Karahan starts a 'confession round.' Fatih confesses he sometimes pushes to production without running tests. Selin confesses she approves AI chats without reading them when she's tired. Umut confesses he once deployed Oğuzhan's code without reviewing it. Özgür claims to be filming 'for team memories.' The phone is pointed at faces while people confess to professional sins.",
+    "constraints": [
+      "Nobody is sober enough to assess the risk of these confessions existing in any form.",
+      "Someone from another team at the company is sitting two tables away.",
+      "Fatih's 'no tests' confession involves a dashboard used by enterprise customers."
+    ],
+    "hiddenTwistHints": [
+      "Özgür isn't actually recording – his phone is dead and he's bluffing to get better confessions.",
+      "Selin's confession about not reading chats is why last week's AI moderation numbers were unusually high."
+    ],
+    "difficulty": 4,
+    "tags": ["friday", "drinks", "confessions", "risk"]
+  },
+  {
+    "id": 26,
+    "title": "The Accidental LinkedIn Flex",
+    "setup": "Context: This is a 6-person team at a large AI company. The double salary for the 20th anniversary never came and morale has been shaky.\n\nUmut updated his LinkedIn profile at 11 PM to add a new skill. LinkedIn, being LinkedIn, notified his entire network: 'Umut is open to new opportunities!' He did NOT turn that on. Or did he? He's not sure. It's 9 AM. Özgür messages: '????' Within an hour, word has somehow traveled up – management is aware that someone on the team appears to be job hunting. This is extra sensitive because morale is already low after the double salary disappointment. Three recruiters have already messaged Umut. Karahan tells him to 'just use it as leverage for a raise' which is terrible advice.",
+    "constraints": [
+      "Turning off the flag now would look like damage control.",
+      "Multiple team members have been quietly browsing LinkedIn since the double salary didn't happen – Umut is just the one who got caught.",
+      "Özgür needs to do damage control without knowing if Umut actually wants to leave."
+    ],
+    "hiddenTwistHints": [
+      "The LinkedIn notification was actually triggered by Oğuzhan who was logged into Umut's account on the office computer.",
+      "At least two other people on the team have their 'Open to Work' badge on – they just have it set to 'recruiters only.'"
+    ],
+    "difficulty": 4,
+    "tags": ["linkedin", "retention", "double-salary", "accidental"]
+  },
+  {
+    "id": 27,
+    "title": "The Support Team Rebellion",
+    "setup": "Context: This is a 6-person team at a large AI company. 3 support (Selin, Karahan, Gamze) and 3 devs (Özgür, Umut, Fatih + Oğuzhan part-time). The support team uses dashboards built by the devs to review AI chats all day.\n\nSelin, Karahan, and Gamze have formed an alliance. They're tired of reviewing AI chats on dashboards that crash, load slowly, and still don't have dark mode. They've written a formal complaint document. It's well-structured (Selin), emotionally compelling (Karahan), and includes a threat to order çiğ köfte every day until changes are made (Gamze). They present it during sprint planning. Özgür reads it aloud. Point 7 says 'The frontend has more bugs than the backend, which is saying something.' Fatih high-fives Selin across the table.",
+    "constraints": [
+      "Several of their complaints are genuinely valid.",
+      "The document was supposed to stay within the team but Gamze CC'd it wider 'for visibility.'",
+      "Most of the bugs they're complaining about are in Oğuzhan's code, but the support team can't tell which dev wrote what."
+    ],
+    "hiddenTwistHints": [
+      "Umut quietly agrees with most of the complaints and has been wanting to fix these issues for weeks.",
+      "The complaint document is so well-written that Özgür is secretly impressed and plans to use it as a template for his own escalations."
+    ],
+    "difficulty": 3,
+    "tags": ["support-rebellion", "bugs", "sprint-planning", "alliance"]
+  },
+  {
+    "id": 28,
+    "title": "The Double-Booked Absence",
+    "setup": "Context: This is a 6-person team at a large AI company. Umut and Karahan are best friends at work. Özgür is the team lead who approves time off.\n\nUmut and Karahan both requested the same Friday off. Özgür approved both without checking the overlap. It's Wednesday. A critical Friday demo with an important client has just been scheduled. The demo requires frontend (Umut), backend (Fatih – available), and a support walkthrough (Karahan). Umut and Karahan discover this in the team chat simultaneously and both go silent. Özgür checks the calendar. His face changes. He approved both requests himself. He can only ask one of them to cancel. Umut and Karahan had tickets to a music festival. Together.",
+    "constraints": [
+      "The festival tickets are non-refundable.",
+      "The client demo was arranged by management and can't easily be moved.",
+      "Whoever stays will resent whoever goes. At least for a weekend."
+    ],
+    "hiddenTwistHints": [
+      "Fatih can actually present the full demo himself if someone gives him a 2-hour crash course on the frontend parts.",
+      "Selin offers to 'do both the support walkthrough AND manage the devs' which is both helpful and terrifying."
+    ],
+    "difficulty": 3,
+    "tags": ["scheduling", "friendship", "festival", "sacrifice"]
+  },
+  {
+    "id": 29,
+    "title": "The AI Reviews the AI Reviewers",
+    "setup": "Context: This is a 6-person team at a large AI company that builds AI chatbot products. The support team (Selin, Karahan, Gamze) manually reviews AI chat conversations for quality.\n\nThe company has built an internal tool that uses AI to evaluate the quality of the human AI chat reviews. Meta. The first report comes in. Selin's accuracy: 94%. Gamze's accuracy: 87%. Karahan's accuracy: 61%. The threshold for 'acceptable' is 80%. Karahan stares at the number. He says 'This AI doesn't understand nuance.' Selin says 'Or maybe you should read the chats before approving them.' Management sees the report and there's talk of 'performance improvement plans' for anyone below 80%.",
+    "constraints": [
+      "Karahan's low score is partly because the AI evaluation is biased – but partly because he WAS distracted by apartment hunting.",
+      "The AI evaluation tool was built by another team – criticizing the tool is politically sensitive.",
+      "Özgür needs to defend his team member without creating cross-team drama."
+    ],
+    "hiddenTwistHints": [
+      "The AI tool has a known bias that flags Karahan's lenient review style as 'incorrect' even when it's a valid judgment call.",
+      "Gamze's 87% includes 30 reviews she did during the cat emergency while emotionally compromised – her real accuracy is higher."
+    ],
+    "difficulty": 4,
+    "tags": ["ai-meta", "karahan", "performance", "reviews"]
+  },
+  {
+    "id": 30,
+    "title": "The Great CS Degree Debate",
+    "setup": "Context: This is a 6-person team at a large AI company. Umut went to a top CS program. Fatih went to a lesser-known university but is self-taught via years of freelancing. Oğuzhan has even higher scores than Umut.\n\nDuring a team lunch, the conversation turns to education. Someone mentions university rankings. The air shifts. Fatih goes quiet – he went to a university that people joke about online. But Fatih is the one who keeps the entire backend alive through sheer talent and duct-tape engineering. Umut went to a top university with great scores. Oğuzhan, the part-timer, went to an arguably better one. The irony: Oğuzhan with his superior scores has shipped two caching bugs this month, while Fatih with his 'joke university' hasn't had a production incident in 6 months. Selin says 'Can we talk about something that matters? Like why the dashboard still doesn't have dark mode?'",
+    "constraints": [
+      "Fatih's body language makes it clear he's uncomfortable with the topic.",
+      "Oğuzhan, trying to be helpful, starts comparing exam scores out loud – making everything worse.",
+      "Karahan, who didn't go to university, is watching this with anthropological fascination."
+    ],
+    "hiddenTwistHints": [
+      "Fatih later privately tells Umut that the conversation bothered him more than he showed.",
+      "Gamze redirects the entire table to çiğ köfte orders within 3 minutes, proving she's the team's true leader."
+    ],
+    "difficulty": 3,
+    "tags": ["education", "fatih", "team-lunch", "awkward"]
+  }
+]

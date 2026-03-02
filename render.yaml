@@ -1,0 +1,21 @@
+# ── Render Infrastructure-as-Code ────────────────────────
+# Render auto-detects this file from your repo.
+# It will create the service + set env vars on first deploy.
+
+services:
+  - type: web
+    name: corporate-survival
+    runtime: docker
+    dockerfilePath: ./Dockerfile
+    region: frankfurt  # fra (EU) – or "oregon" for US west
+    plan: free         # free tier works, upgrade to "starter" to remove sleep
+    healthCheckPath: /api/health
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: PORT
+        value: "10000"
+      - key: OPENAI_API_KEY
+        sync: false  # Render will prompt you to fill this in manually
+      - key: OPENAI_MODEL
+        value: gpt-4o
